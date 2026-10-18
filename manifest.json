@@ -1,0 +1,17 @@
+{
+  "name": "Highway Engineering Practice Tool",
+  "short_name": "Highway Practice",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#10233f",
+  "description": "Hindi and English highway engineering MCQ practice",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

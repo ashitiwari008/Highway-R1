@@ -1,0 +1,8 @@
+GitHub Pages hosting (iPhone PWA)
+1. Download and extract this ZIP.
+2. On GitHub create a repository named highway-engineering-practice.
+3. Upload index.html, app.js, questions.json, manifest.json, sw.js and icon.svg to repository root (not the ZIP itself).
+4. Repository > Settings > Pages > Build and deployment: Deploy from a branch; select main and /(root); Save.
+5. Wait for deployment. Open https://YOUR-USERNAME.github.io/highway-engineering-practice/ in Safari.
+6. Safari Share button > Add to Home Screen.
+7. If app shows question bank loading error, verify questions.json is in repository root and URL is HTTPS.

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "IRC-001",
+    "topic": "Pavement & Materials",
+    "code": "IRC:37 (edition to verify)",
+    "question": "Flexible pavement design में traffic loading को सामान्यतः किस रूप में cumulative design traffic के लिए व्यक्त किया जाता है?",
+    "options": [
+      "Million Standard Axles (MSA)",
+      "Vehicles per hour only",
+      "Road width in metres",
+      "Subgrade CBR as a traffic unit"
+    ],
+    "answer": 0,
+    "explanation": "Flexible pavement design में design traffic को सामान्यतः cumulative standard axle repetitions के रूप में MSA में व्यक्त किया जाता है। लागू IRC:37 edition और project requirements verify करें।",
+    "reference": "IRC:37 — applicable edition and clause must be verified against the official catalogue/project copy.",
+    "verified": false
+  },
+  {
+    "id": "IRC-002",
+    "topic": "Pavement & Materials",
+    "code": "MoRTH Specifications",
+    "question": "WMM layer की field quality control में सबसे उपयुक्त जाँचों का संयोजन कौन-सा है?",
+    "options": [
+      "Only visual colour check",
+      "Gradation, moisture, compaction/density and thickness checks",
+      "Only bitumen content",
+      "Only traffic count"
+    ],
+    "answer": 1,
+    "explanation": "WMM के लिए gradation, moisture/compaction, thickness और specified material properties की जाँच आवश्यक होती है। Acceptance limits संबंधित MoRTH clause और contract specification से लें।",
+    "reference": "MoRTH Specifications for Road and Bridge Works — relevant WMM section; clause/edition to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-003",
+    "topic": "Rigid Pavement",
+    "code": "IRC:15 / project specification",
+    "question": "Jointed Plain Concrete Pavement (JPCP) में transverse joints का मुख्य उद्देश्य क्या है?",
+    "options": [
+      "Concrete का cement content बढ़ाना",
+      "Pavement को हमेशा waterproof बनाना",
+      "Shrinkage/temperature movement को नियंत्रित स्थान पर accommodate करना",
+      "Subgrade CBR बढ़ाना"
+    ],
+    "answer": 2,
+    "explanation": "Transverse joints slab shrinkage और temperature-related movement को नियंत्रित करने के लिए निर्धारित स्थानों पर movement/cracking को accommodate करते हैं। Joint spacing/details applicable standard और drawings के अनुसार हों।",
+    "reference": "IRC:15 — applicable edition and project drawings to be verified.",
+    "verified": false
+  },
+  {
+    "id": "IRC-004",
+    "topic": "Road Safety",
+    "code": "IRC:SP:55 / project safety plan",
+    "question": "Work zone में traffic diversion लागू करने से पहले सबसे जरूरी कदम क्या है?",
+    "options": [
+      "सिर्फ cones रख देना",
+      "Approved traffic management/safety arrangement, signs, barricading और visibility सुनिश्चित करना",
+      "सभी warning signs हटाना",
+      "काम के बाद diversion plan बनाना"
+    ],
+    "answer": 1,
+    "explanation": "Work zone traffic management को काम शुरू होने से पहले व्यवस्थित करना चाहिए—advance warning, channelization, barricading, night visibility और safe pedestrian/vehicle movement सहित। लागू code और approved plan देखें।",
+    "reference": "IRC work-zone safety guidance and approved project traffic management plan; exact clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-005",
+    "topic": "Bridges & Structures",
+    "code": "IRC:6 / IRC:78 (edition to verify)",
+    "question": "Bridge foundation/substructure inspection में scour assessment क्यों महत्वपूर्ण है?",
+    "options": [
+      "Paint colour तय करने के लिए",
+      "Bearing का brand चुनने के लिए",
+      "Foundation के आसपास bed-level erosion और stability risk assess करने के लिए",
+      "Deck slab thickness कम करने के लिए"
+    ],
+    "answer": 2,
+    "explanation": "Scour foundation के आसपास मिट्टी/bed material हटने से effective embedment और stability को प्रभावित कर सकता है। Inspection में site hydraulics, bed levels और applicable bridge/foundation requirements देखें।",
+    "reference": "Applicable IRC bridge loading/foundation provisions and approved design; edition/clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-006",
+    "topic": "Drainage & Maintenance",
+    "code": "MoRTH / project maintenance requirements",
+    "question": "Flexible pavement पर pothole repair से पहले सामान्यतः कौन-सा कार्य आवश्यक है?",
+    "options": [
+      "Loose and unsound material हटाकर repair area को sound edges तक तैयार करना",
+      "Pothole में पानी भरना",
+      "Loose aggregate ऊपर डालकर traffic खोल देना",
+      "Defect को बिना record किए छोड़ देना"
+    ],
+    "answer": 0,
+    "explanation": "Durable repair के लिए loose/unsound material हटाना, edges को उपयुक्त आकार देना, surface preparation और specified material/compaction जरूरी हैं। Exact repair method project specification और approved method statement से लें।",
+    "reference": "MoRTH maintenance/repair specification and project O&M requirements; exact clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-007",
+    "topic": "Traffic & Survey",
+    "code": "IRC:9",
+    "question": "Non-urban road traffic census का प्रमुख उपयोग क्या है?",
+    "options": [
+      "Only road name तय करना",
+      "Traffic volume/composition data के आधार पर planning and design inputs तैयार करना",
+      "Concrete curing time तय करना",
+      "Bridge bearing replacement तय करना"
+    ],
+    "answer": 1,
+    "explanation": "Traffic census से volume और vehicle composition जैसे inputs मिलते हैं, जिनका उपयोग planning, capacity/traffic assessment और pavement design inputs में किया जा सकता है। Survey methodology applicable IRC:9 edition के अनुसार हो।",
+    "reference": "IRC:9 — confirm the applicable edition from the official IRC catalogue.",
+    "verified": false
+  },
+  {
+    "id": "IRC-008",
+    "topic": "Access Permission",
+    "code": "IRC:12 / applicable MoRTH guidelines",
+    "question": "NH पर fuel station access proposal review करते समय किस आधार को प्राथमिकता देनी चाहिए?",
+    "options": [
+      "केवल applicant की सुविधा",
+      "केवल boundary wall का रंग",
+      "Applicable access guidelines, location geometry, spacing, sight distance और safety requirements",
+      "केवल land ownership"
+    ],
+    "answer": 2,
+    "explanation": "Access permission में applicable IRC/MoRTH guidelines, location category, access spacing, sight distance, traffic safety और prescribed drawings/documents की जाँच जरूरी है। Latest amendment/circular भी verify करें।",
+    "reference": "IRC:12 (latest applicable revision) and applicable MoRTH/NHAI circulars; verify current requirements.",
+    "verified": false
+  },
+  {
+    "id": "IRC-009",
+    "topic": "Quality Control",
+    "code": "MoRTH Specifications",
+    "question": "Field density test का उद्देश्य क्या है?",
+    "options": [
+      "Compacted layer की in-situ density को specified requirement से compare करना",
+      "Road marking colour चुनना",
+      "Chainage number तय करना",
+      "Traffic speed सीधे मापना"
+    ],
+    "answer": 0,
+    "explanation": "Field density test से compacted soil/granular/other specified layer की in-situ density का मूल्यांकन किया जाता है। Acceptance percentage, reference MDD और test frequency संबंधित specification से लें।",
+    "reference": "MoRTH relevant material/layer section and approved QA plan; exact clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-010",
+    "topic": "EPC & Contract Administration",
+    "code": "Project EPC Agreement",
+    "question": "किसी defect/maintenance non-compliance पर contractual deduction लगाने से पहले सबसे उचित तरीका क्या है?",
+    "options": [
+      "बिना रिकॉर्ड सीधे deduction करना",
+      "केवल मौखिक सूचना पर final recovery करना",
+      "Agreement की applicable clause, inspection evidence, notice/procedure और calculation verify करना",
+      "हर defect पर समान राशि मान लेना"
+    ],
+    "answer": 2,
+    "explanation": "Recovery/penalty contract-specific होती है। Applicable clause/schedule, defect evidence, notice/cure process, measurement/calculation और competent authority approval का रिकॉर्ड रखें।",
+    "reference": "Applicable project EPC Agreement, schedules and amendments; project-specific clause must be checked.",
+    "verified": false
+  },
+  {
+    "id": "IRC-011",
+    "topic": "Pavement & Materials",
+    "code": "IRC:37 / MoRTH",
+    "question": "Subgrade CBR का उपयोग मुख्यतः किसका आकलन करने के लिए होता है?",
+    "options": [
+      "Bitumen penetration",
+      "Subgrade soil की bearing/support strength का empirical index",
+      "Road sign retro-reflectivity",
+      "Bridge expansion joint movement"
+    ],
+    "answer": 1,
+    "explanation": "CBR subgrade/supporting soil strength का empirical index है और pavement design में उपयोग किया जाता है। Test method, soaked/unsoaked condition और design value applicable standard के अनुसार लें।",
+    "reference": "Applicable IRC pavement design code and relevant test standard; edition/clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-012",
+    "topic": "Road Safety",
+    "code": "IRC:SP:55 / project safety plan",
+    "question": "रात में work zone barricading के लिए किस बात पर विशेष ध्यान देना चाहिए?",
+    "options": [
+      "Barricades को dark/unmarked रखना",
+      "Warning lights/reflective devices, advance signs और adequate visibility",
+      "सभी traffic signs को work zone के पीछे रखना",
+      "Diversion को बिना inspection खोलना"
+    ],
+    "answer": 1,
+    "explanation": "Night-time safety में conspicuity, reflective devices/lights, advance warning और safe channelization महत्वपूर्ण हैं। Arrangement approved traffic management plan और applicable guidance के अनुरूप होना चाहिए।",
+    "reference": "Applicable IRC work-zone safety guidance and approved traffic management plan; exact clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-013",
+    "topic": "Bridges & Structures",
+    "code": "IRC:SP:35-2024",
+    "question": "Bridge inventory और inspection records का प्रमुख लाभ क्या है?",
+    "options": [
+      "केवल फोटो संग्रह करना",
+      "Asset condition, defects, maintenance needs और prioritisation का documented record बनाना",
+      "Bridge design loads बदलना",
+      "Traffic rules समाप्त करना"
+    ],
+    "answer": 1,
+    "explanation": "Structured bridge inventory/inspection records asset management, condition tracking, maintenance prioritisation और future interventions के लिए आधार प्रदान करते हैं।",
+    "reference": "IRC:SP:35-2024 is listed by IRC as a revised publication; consult the official copy for exact procedures.",
+    "verified": false
+  },
+  {
+    "id": "IRC-014",
+    "topic": "Drainage & Maintenance",
+    "code": "IRC:75 Part 2-2025",
+    "question": "Waterlogging/flooding से प्रभावित highway section के retrofit options चुनते समय सबसे पहले क्या समझना चाहिए?",
+    "options": [
+      "केवल pavement colour",
+      "Drainage path, flood/waterlogging cause, levels and protection needs",
+      "सिर्फ lane marking",
+      "केवल traffic sign size"
+    ],
+    "answer": 1,
+    "explanation": "Retrofit selection से पहले water source/path, drainage capacity, levels, outfalls और affected road-system components का assessment जरूरी है। IRC catalogue में IRC:75-2025 Part 2 का विषय rainfall, waterlogging और flooding से road systems की protection/retrofitting है।",
+    "reference": "IRC:75-2025 (Part-2); use official publication for exact methods and clauses.",
+    "verified": false
+  },
+  {
+    "id": "IRC-015",
+    "topic": "Pavement & Materials",
+    "code": "IRC:140-2025",
+    "question": "IRC:140-2025 का विषय क्या है?",
+    "options": [
+      "Specifications for Bonded Rigid Pavement",
+      "Fuel station access permission",
+      "Bridge inventory and maintenance",
+      "Non-urban traffic census"
+    ],
+    "answer": 0,
+    "explanation": "IRC की official new/revised publications listing में IRC:140-2025 को “Specifications for Bonded Rigid Pavement” के रूप में सूचीबद्ध किया गया है। यह प्रश्न publication-title recall पर आधारित है, design clause पर नहीं।",
+    "reference": "Official IRC new/revised publications listing.",
+    "verified": true
+  },
+  {
+    "id": "IRC-016",
+    "topic": "Pavement & Materials",
+    "code": "IRC:142-2025",
+    "question": "IRC:142-2025 मुख्यतः किस तकनीक पर guidance देता है?",
+    "options": [
+      "Steel bridge detailing",
+      "Full-depth recycling/reclamation using cementitious binders",
+      "Smart parking management systems",
+      "Cycle track layout"
+    ],
+    "answer": 1,
+    "explanation": "Official IRC listing में IRC:142-2025 का शीर्षक pavements के लिए cementitious binders का उपयोग करके full-depth recycling/reclamation technology पर है।",
+    "reference": "Official IRC new/revised publications listing.",
+    "verified": true
+  },
+  {
+    "id": "IRC-017",
+    "topic": "Highway Facilities",
+    "code": "IRC:SP:146-2025",
+    "question": "IRC:SP:146-2025 किस विषय से संबंधित है?",
+    "options": [
+      "Bridge loading combinations",
+      "Wayside amenities along highways on PPP mode",
+      "Prime and tack coat",
+      "Traffic census"
+    ],
+    "answer": 1,
+    "explanation": "IRC की new/revised publication list में IRC:SP:146-2025 wayside amenities along highways on PPP mode के development manual के रूप में सूचीबद्ध है।",
+    "reference": "Official IRC new/revised publications listing.",
+    "verified": true
+  },
+  {
+    "id": "IRC-018",
+    "topic": "Highway Facilities",
+    "code": "IRC:SP:148-2025",
+    "question": "IRC:SP:148-2025 का विषय क्या है?",
+    "options": [
+      "Smart Parking Management Systems",
+      "Rigid pavement joints",
+      "Road bridge general features",
+      "Subgrade CBR"
+    ],
+    "answer": 0,
+    "explanation": "IRC की official listing में IRC:SP:148-2025 को Manual for Smart Parking Management Systems कहा गया है।",
+    "reference": "Official IRC new/revised publications listing.",
+    "verified": true
+  },
+  {
+    "id": "IRC-019",
+    "topic": "Bridges & Structures",
+    "code": "IRC:5-2024",
+    "question": "IRC:5-2024 किस विषय का revised publication है?",
+    "options": [
+      "Road bridges: General Features of Design, Section I",
+      "Fuel station access permission",
+      "Pothole penalty calculation",
+      "Traffic census for non-urban roads"
+    ],
+    "answer": 0,
+    "explanation": "IRC की official listing IRC:5-2024 को Road Bridges, Section I—General Features of Design की Ninth Revision बताती है। Detailed requirements के लिए publication स्वयं देखें।",
+    "reference": "Official IRC new/revised publications listing.",
+    "verified": true
+  },
+  {
+    "id": "IRC-020",
+    "topic": "Bridges & Structures",
+    "code": "IRC:SP:35-2024",
+    "question": "IRC:SP:35-2024 का title किस विषय को cover करता है?",
+    "options": [
+      "Manual for Bridge Management, Inventory, Inspection and Maintenance",
+      "Wayside amenities on PPP mode",
+      "Bonded rigid pavement specifications",
+      "Full-depth recycling using cementitious binders"
+    ],
+    "answer": 0,
+    "explanation": "IRC की official listing में IRC:SP:35-2024 को Manual for Bridge Management, Inventory, Inspection and Maintenance की First Revision बताया गया है।",
+    "reference": "Official IRC new/revised publications listing.",
+    "verified": true
+  },
+  {
+    "id": "IRC-021",
+    "topic": "Access Permission",
+    "code": "IRC:12 (edition to verify)",
+    "question": "Access permission scrutiny में sight distance का मूल्यांकन क्यों किया जाता है?",
+    "options": [
+      "वाहन प्रवेश/निकास के समय approaching traffic को देखने और सुरक्षित manoeuvre के लिए",
+      "Pavement thickness बढ़ाने के लिए",
+      "Toll rate तय करने के लिए",
+      "Bridge number तय करने के लिए"
+    ],
+    "answer": 0,
+    "explanation": "पर्याप्त sight distance drivers को approaching traffic पहचानने और सुरक्षित entry/exit manoeuvre करने में मदद करती है। Required value और measurement method applicable guideline/location conditions से verify करें।",
+    "reference": "IRC:12 latest applicable revision and current MoRTH/NHAI guidelines; exact clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-022",
+    "topic": "Quality Control",
+    "code": "MoRTH Specifications",
+    "question": "Construction inspection में chainage-wise defect register रखने का मुख्य लाभ क्या है?",
+    "options": [
+      "Defect location, evidence, responsibility and closure tracking को traceable बनाना",
+      "All tests को छोड़ देना",
+      "Contract clause बदल देना",
+      "Road length अपने-आप कम करना"
+    ],
+    "answer": 0,
+    "explanation": "Chainage-wise register observations को location, date, photographs, required action और closure evidence से जोड़ता है। यह inspection and contract administration को auditable बनाता है।",
+    "reference": "Project QA/QC and O&M procedures; project-specific formats govern.",
+    "verified": false
+  },
+  {
+    "id": "IRC-023",
+    "topic": "Rigid Pavement",
+    "code": "IRC:15 / project specification",
+    "question": "PQC repair के बाद barricading कब हटानी चाहिए?",
+    "options": [
+      "केवल जब traffic queue बने",
+      "जब निर्धारित curing/strength and reopening criteria पूरे हों और authorised inspection/approval हो",
+      "Concrete डालते ही",
+      "बिना curing record के अगले दिन हमेशा"
+    ],
+    "answer": 1,
+    "explanation": "Barricading को prescribed curing/strength, surface condition and reopening criteria पूरा होने से पहले नहीं हटाना चाहिए। Exact reopening criteria project specification and approved method statement से verify करें।",
+    "reference": "Applicable IRC:15 edition, MoRTH specification and approved project method statement.",
+    "verified": false
+  },
+  {
+    "id": "IRC-024",
+    "topic": "Traffic & Survey",
+    "code": "IRC:9",
+    "question": "Traffic count survey में classified volume data क्यों उपयोगी है?",
+    "options": [
+      "Different vehicle categories and traffic composition समझने के लिए",
+      "Concrete cube strength मापने के लिए",
+      "Road camber directly measure करने के लिए",
+      "Pothole depth तय करने के लिए"
+    ],
+    "answer": 0,
+    "explanation": "Classified counts vehicle categories और traffic composition समझने में मदद करते हैं; design/application के लिए survey duration, seasonality and methodology standard के अनुरूप रखें।",
+    "reference": "IRC:9 — applicable edition to be verified.",
+    "verified": false
+  },
+  {
+    "id": "IRC-025",
+    "topic": "EPC & Contract Administration",
+    "code": "Project EPC Agreement",
+    "question": "Contractor द्वारा defect rectification पूरा बताने पर supervision consultant को क्या करना चाहिए?",
+    "options": [
+      "बिना inspection defect close करना",
+      "Site verification, evidence/measurements and applicable acceptance criteria के आधार पर closure record करना",
+      "केवल फोन पर सहमति देना",
+      "सभी पुराने records delete करना"
+    ],
+    "answer": 1,
+    "explanation": "Closure के लिए actual site verification, dated photographs/measurements और applicable acceptance criteria का record रखें। Contract-specific notification and reporting requirements भी follow करें।",
+    "reference": "Applicable EPC Agreement, O&M/maintenance obligations and approved inspection procedure.",
+    "verified": false
+  },
+  {
+    "id": "IRC-026",
+    "topic": "Pavement & Materials",
+    "code": "IRC:37 (edition to verify)",
+    "question": "Pavement design में subgrade strength कम होने पर सामान्यतः क्या प्रभाव पड़ सकता है?",
+    "options": [
+      "Required pavement thickness/design treatment बढ़ सकता है",
+      "Traffic volume स्वतः शून्य हो जाता है",
+      "Road signs की retro-reflectivity बढ़ती है",
+      "Bridge span कम हो जाता है"
+    ],
+    "answer": 0,
+    "explanation": "कम subgrade support से pavement structural demand बढ़ सकती है; design response applicable design method, traffic, material properties and drainage conditions पर निर्भर है।",
+    "reference": "Applicable IRC pavement design code and project design report; edition/clause to verify.",
+    "verified": false
+  },
+  {
+    "id": "IRC-027",
+    "topic": "Drainage & Maintenance",
+    "code": "Project O&M requirements",
+    "question": "Highway drain में blockage दिखने पर inspection report में कौन-सा combination सबसे उपयोगी है?",
+    "options": [
+      "केवल “drain bad” लिखना",
+      "Chainage/location, blockage extent, water flow/ponding, photographs and recommended rectification",
+      "केवल weather लिखना",
+      "कोई record न रखना"
+    ],
+    "answer": 1,
+    "explanation": "Specific, location-based observations actionable होते हैं और rectification/closure verify करने में मदद करते हैं। Emergency/safety risk हो तो applicable escalation process follow करें।",
+    "reference": "Project O&M/maintenance manual and inspection procedure.",
+    "verified": false
+  },
+  {
+    "id": "IRC-028",
+    "topic": "Bridges & Structures",
+    "code": "IRC:SP:35-2024",
+    "question": "Bridge inspection में crack observation को कैसे record करना बेहतर है?",
+    "options": [
+      "केवल “crack found” लिखें",
+      "Location/member, crack pattern/extent, measured width where relevant, date and photographs record करें",
+      "बिना record plaster कर दें",
+      "केवल bridge name लिखें"
+    ],
+    "answer": 1,
+    "explanation": "Crack record में location, structural member, pattern, extent and relevant measurements/photos शामिल होने चाहिए; significance और repair decision competent structural assessment पर आधारित हो।",
+    "reference": "IRC:SP:35-2024 official publication; detailed inspection protocol to be checked in the document.",
+    "verified": false
+  },
+  {
+    "id": "IRC-029",
+    "topic": "Road Safety",
+    "code": "Project road safety plan",
+    "question": "A road sign is faded and difficult to read at approach speed. Inspection priority क्यों बढ़नी चाहिए?",
+    "options": [
+      "Driver information/perception and safety compromised हो सकते हैं",
+      "इससे pavement CBR बढ़ता है",
+      "यह culvert capacity बढ़ाता है",
+      "इसका traffic safety से कोई संबंध नहीं"
+    ],
+    "answer": 0,
+    "explanation": "Faded/unreadable signs driver comprehension और timely response को प्रभावित कर सकते हैं। Sign visibility, retroreflectivity, placement and replacement criteria applicable standard/contract से जाँचें।",
+    "reference": "Applicable IRC road sign guidance, MoRTH requirements and project maintenance specifications.",
+    "verified": false
+  },
+  {
+    "id": "IRC-030",
+    "topic": "Highway Facilities",
+    "code": "IRC:SP:146-2025",
+    "question": "Wayside amenity project on PPP mode में lifecycle perspective से किस पर ध्यान देना चाहिए?",
+    "options": [
+      "केवल initial construction cost",
+      "Development के साथ operation, maintenance, service quality and contractual obligations",
+      "केवल inauguration date",
+      "सिर्फ boundary painting"
+    ],
+    "answer": 1,
+    "explanation": "PPP facility planning में development के साथ operation/maintenance, service levels, commercial obligations and risk allocation को संबंधित contract and guideline के अनुसार evaluate करना चाहिए।",
+    "reference": "IRC:SP:146-2025; consult official copy for detailed provisions.",
+    "verified": false
+  }
+]

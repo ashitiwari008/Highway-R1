@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#10233f"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json"><title>Highway Engineering Practice</title>
+<style>
+:root{--navy:#10233f;--blue:#2457a7;--bg:#f3f6fa;--ink:#172337;--muted:#65748b;--line:#dbe3ee;--good:#dff5e8;--bad:#fde8e7}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:var(--navy);color:white;padding:20px 16px 18px}header h1{font-size:21px;margin:0 0 6px}header p{font-size:13px;margin:0;opacity:.85}
+main{max-width:760px;margin:auto;padding:14px 12px 36px}.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px;margin-bottom:12px;box-shadow:0 2px 8px #10233f0a}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.row>*{flex:1}
+select,button{font:inherit;border-radius:10px;padding:11px;border:1px solid var(--line);background:white;color:var(--ink);min-height:44px}
+button.primary{background:var(--blue);color:white;border-color:var(--blue);font-weight:650}button:disabled{opacity:.5}
+.meta{font-size:12px;color:var(--muted);margin-bottom:8px}.question{font-size:18px;font-weight:700;line-height:1.4;margin:6px 0 14px}
+.option{display:block;width:100%;text-align:left;margin:8px 0;padding:13px;border:1px solid var(--line);border-radius:12px;background:white;line-height:1.35}
+.option.chosen{border-color:var(--blue);background:#eef4ff}.option.correct{background:var(--good);border-color:#49a36d}.option.wrong{background:var(--bad);border-color:#d46b65}
+#feedback{font-size:14px;line-height:1.5;margin-top:12px;padding:12px;border-radius:10px;background:#f6f8fb;display:none}
+.small{font-size:12px;color:var(--muted);line-height:1.5}.pill{display:inline-block;padding:4px 8px;border-radius:999px;background:#eaf0f8;color:#344b6b;font-size:11px;margin-right:5px}
+.stat{font-weight:700;font-size:19px}.bar{height:7px;background:#e7edf5;border-radius:99px;overflow:hidden;margin-top:8px}.bar span{display:block;height:100%;background:var(--blue);width:0}
+a{color:#2457a7;overflow-wrap:anywhere}
+footer{text-align:center;font-size:11px;color:var(--muted);padding:8px}
+</style>
+</head>
+<body>
+<header><h1>Highway Engineering Practice Tool</h1><p>Hindi + English technical terms · MCQ practice · IRC / IRC:SP / MoRTH / EPC</p></header>
+<main>
+<section class="panel">
+ <div class="row">
+  <select id="topic"><option value="all">All Topics</option></select>
+  <select id="mode"><option value="manual">Manual Practice</option><option value="timer">10-minute reminder (app open)</option></select>
+ </div>
+ <div class="row" style="margin-top:9px">
+  <button class="primary" id="next">Start / Next Question</button><button id="reveal">Show Explanation</button>
+ </div>
+ <p class="small" style="margin-bottom:0">Timer mode: अगला प्रश्न 10 मिनट बाद app खुला रहने पर बदलेगा। iPhone पर app बंद/locked होने पर यह local timer notification नहीं भेजता।</p>
+</section>
+<section class="panel">
+ <div class="row"><div><div class="meta">QUESTION</div><div class="stat" id="counter">0 / 0</div></div><div><div class="meta">SCORE</div><div class="stat" id="score">0 correct</div></div></div>
+ <div class="bar"><span id="progress"></span></div>
+</section>
+<section class="panel" id="quiz">
+ <div class="meta" id="qmeta">Question bank loading…</div>
+ <div class="question" id="qtext">कृपया प्रतीक्षा करें…</div>
+ <div id="options"></div><div id="feedback"></div>
+ <div class="row" style="margin-top:12px"><button id="skip">Skip</button><button class="primary" id="another">Next Question</button></div>
+</section>
+<section class="panel">
+ <b>Question bank & source status</b>
+ <p class="small">Starter bank में 30 original practice questions हैं। “Official listing” वाले कुछ प्रश्न title-level verified हैं; बाकी technical questions को लागू edition, clause और project specification से verify करना बाकी है। इन्हें verified code-clause questions न मानें।</p>
+ <p class="small">Official IRC publication catalogue: <a href="https://irc.nic.in/index1.aspx?langid=1&lev=1&lid=14&lsid=13" target="_blank" rel="noopener">IRC Sale of Publications</a><br>
+ Archive index: <a href="https://law.resource.org/pub/in/bis/manifest.irc.html" target="_blank" rel="noopener">law.resource.org IRC manifest</a></p>
+ <button id="showAll">Show all question references</button><div id="refs" class="small" style="display:none;margin-top:10px"></div>
+</section>
+<footer>Practice aid only. Always verify latest applicable IRC edition, amendments/errata, MoRTH specifications and project agreement before site/contract decisions.</footer>
+</main>
+<script src="app.js"></script>
+</body></html>
